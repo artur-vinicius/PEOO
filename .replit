@@ -1,0 +1,1 @@
+run = "mcs -out:main.exe './Lista_02/Ex_' ; mono main.exe"
