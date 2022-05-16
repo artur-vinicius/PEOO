@@ -1,1 +1,1 @@
-run = "mcs -out:main.exe './Lista_03/URI_1004.cs' ; mono main.exe"
+gitrun = "mcs -out:main.exe './Lista_03/URI_1004.cs' ; mono main.exe"
