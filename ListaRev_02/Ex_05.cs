@@ -5,8 +5,8 @@ public class Program {
   public static void Main(string[] args) {
     Console.WriteLine("Informe o Número do Mês:");
     int n = int.Parse(Console.ReadLine());
-    string m = "a";
-    string tri = "a";
+    string m;
+    string tri;
     switch (n) {
       case 1: {
         m = "Janeiro";
