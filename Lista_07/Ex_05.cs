@@ -5,7 +5,16 @@ class MainClass {
     string[] a = nome.ToLower().Split(' ');
     string l = ""; 
     foreach (string s in a) {
-      if (s != "") l = l + s.Substring(0, 1).ToUpper() + s.Substring(1) + " ";
+      switch (s) {
+        case "da": l = l + s + " ";break;
+        case "de": l = l + s + " ";break;
+        case "do": l = l + s + " ";break;
+        case "das": l = l + s + " ";break;
+        case "dos": l = l + s + " ";break;
+        case "e": l = l + s + " ";break;
+        default: if (s != "") l = l + s.Substring(0, 1).ToUpper() + s.Substring(1) + " ";break;
+      }
+      
     }
     return l;
   }
