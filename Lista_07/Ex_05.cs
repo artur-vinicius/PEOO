@@ -14,7 +14,6 @@ class MainClass {
         case "e": l = l + s + " ";break;
         default: if (s != "") l = l + s.Substring(0, 1).ToUpper() + s.Substring(1) + " ";break;
       }
-      
     }
     return l;
   }
