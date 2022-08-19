@@ -5,9 +5,7 @@ public class Program {
   public static void Main(string[] args) {
     Console.WriteLine("Digite sua data de nascimento:");
     string[] data = Console.ReadLine().Split('/');
-    int dia = int.Parse(data[0]);
     int mes = int.Parse(data[1]);
-    int ano = int.Parse(data[2]);
     switch (mes) {
       case 1: Console.WriteLine("Você nasceu em Janeiro");break;
       case 2: Console.WriteLine("Você nasceu em Fevereiro");break;
